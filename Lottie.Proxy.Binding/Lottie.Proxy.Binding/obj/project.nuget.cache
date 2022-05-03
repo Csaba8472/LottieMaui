@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eEV65J331vHWx6ZTJi3LJlkAfbfOQ06xrLyh/6M1AsFkYVh5IgPSt1FC6BdDdYD5+AVsgaIMxu5shR5asOd3yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\csabh\\Projects\\LottieMaui\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\csabh\\.nuget\\packages\\microsoft.android.ref.31\\31.0.101-preview.11.117\\microsoft.android.ref.31.31.0.101-preview.11.117.nupkg.sha512"
+  ],
+  "logs": []
+}

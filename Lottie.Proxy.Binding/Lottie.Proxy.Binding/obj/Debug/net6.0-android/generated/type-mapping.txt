@@ -1,0 +1,11 @@
+com/hcsaba/mylibrary/BuildConfig = Com.Hcsaba.Mylibrary.BuildConfig
+  <init>()V = .ctor()
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  LIBRARY_PACKAGE_NAME = LibraryPackageName
+com/hcsaba/mylibrary/LottieAnimationViewWrapper = Com.Hcsaba.Mylibrary.LottieAnimationViewWrapper
+  <init>(Landroid/content/Context;Lcom/hcsaba/mylibrary/LottieSdkCallback;)V = .ctor(Android.Content.Context, Com.Hcsaba.Mylibrary.ILottieSdkCallback)
+  getView()Landroid/view/View; = View
+  setAnimation(Ljava/lang/String;)V = SetAnimation(string)
+com/hcsaba/mylibrary/LottieSdkCallback = Com.Hcsaba.Mylibrary.ILottieSdkCallback
+  onFailure(Ljava/lang/String;)V = OnFailure(string)

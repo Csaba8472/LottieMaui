@@ -1,0 +1,40 @@
+<api api-source="JavaTypeSystem">
+  <package name="com.hcsaba.mylibrary" jni-name="com/hcsaba/mylibrary">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/hcsaba/mylibrary/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.hcsaba.mylibrary.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.hcsaba.mylibrary&quot;" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="LottieAnimationViewWrapper" static="false" visibility="public" jni-signature="Lcom/hcsaba/mylibrary/LottieAnimationViewWrapper;">
+      <constructor deprecated="not deprecated" final="false" name="LottieAnimationViewWrapper" jni-signature="(Landroid/content/Context;Lcom/hcsaba/mylibrary/LottieSdkCallback;)V" bridge="false" static="false" type="com.hcsaba.mylibrary.LottieAnimationViewWrapper" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="sdkCallback" type="com.hcsaba.mylibrary.LottieSdkCallback" jni-type="Lcom/hcsaba/mylibrary/LottieSdkCallback;" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getView" jni-signature="()Landroid/view/View;" bridge="false" native="false" return="android.view.View" jni-return="Landroid/view/View;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAnimation" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="LottieAnimationViewWrapper.1" static="false" visibility="" jni-signature="Lcom/hcsaba/mylibrary/LottieAnimationViewWrapper$1;">
+      <implements name="android.animation.Animator.AnimatorListener" name-generic-aware="android.animation.Animator.AnimatorListener" jni-type="Landroid/animation/Animator$AnimatorListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationCancel" jni-signature="(Landroid/animation/Animator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator" jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" jni-signature="(Landroid/animation/Animator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator" jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" jni-signature="(Landroid/animation/Animator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator" jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" jni-signature="(Landroid/animation/Animator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator" jni-type="Landroid/animation/Animator;" />
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="LottieSdkCallback" static="false" visibility="public" jni-signature="Lcom/hcsaba/mylibrary/LottieSdkCallback;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+    </interface>
+  </package>
+</api>

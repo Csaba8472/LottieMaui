@@ -1,0 +1,14 @@
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\actool\_PartialAppManifest.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\_ProcessedContentPath.items
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\Lottie.Maui.csproj.AssemblyReference.cache
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\Lottie.Maui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\Lottie.Maui.AssemblyInfoInputs.cache
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\Lottie.Maui.AssemblyInfo.cs
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\Lottie.Maui.csproj.CoreCompileInputs.cache
+C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0-ios\build-signature\signature
