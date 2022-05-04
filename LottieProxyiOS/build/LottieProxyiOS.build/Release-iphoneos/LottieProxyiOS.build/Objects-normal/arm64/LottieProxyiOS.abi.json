@@ -1,0 +1,228 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "LottieProxyiOS",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "LottieProxyiOS"
+    },
+    {
+      "kind": "Import",
+      "name": "Lottie",
+      "printedName": "Lottie",
+      "declKind": "Import",
+      "moduleName": "LottieProxyiOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "LottieAnimationViewWrapper",
+      "printedName": "LottieAnimationViewWrapper",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "animationView",
+          "printedName": "animationView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnimationView",
+              "printedName": "Lottie.AnimationView",
+              "usr": "c:@M@Lottie@objc(cs)AnimationView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14LottieProxyiOS0A20AnimationViewWrapperC09animationE033_B1E3F84BB2ECBCFD10F7B2061A8BEB4DLL0A00dE0Cvp",
+          "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperC09animationE033_B1E3F84BB2ECBCFD10F7B2061A8BEB4DLL0A00dE0Cvp",
+          "moduleName": "LottieProxyiOS",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "initAnimation",
+          "printedName": "initAnimation()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@LottieProxyiOS@objc(cs)LottieAnimationViewWrapper(im)initAnimation",
+          "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperC04initD0yyF",
+          "moduleName": "LottieProxyiOS",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setAnimation",
+          "printedName": "setAnimation(animation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@LottieProxyiOS@objc(cs)LottieAnimationViewWrapper(im)setAnimationWithAnimation:",
+          "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperC03setD09animationySS_tF",
+          "moduleName": "LottieProxyiOS",
+          "objc_name": "setAnimationWithAnimation:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getView",
+          "printedName": "getView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@LottieProxyiOS@objc(cs)LottieAnimationViewWrapper(im)getView",
+          "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperC03getE0So6UIViewCyF",
+          "moduleName": "LottieProxyiOS",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "LottieAnimationViewWrapper",
+              "printedName": "LottieProxyiOS.LottieAnimationViewWrapper",
+              "usr": "c:@M@LottieProxyiOS@objc(cs)LottieAnimationViewWrapper"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@LottieProxyiOS@objc(cs)LottieAnimationViewWrapper(im)init",
+          "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperCACycfc",
+          "moduleName": "LottieProxyiOS",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@LottieProxyiOS@objc(cs)LottieAnimationViewWrapper",
+      "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperC",
+      "moduleName": "LottieProxyiOS",
+      "objc_name": "LottieAnimationViewWrapper",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

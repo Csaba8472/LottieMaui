@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ISrwGZxKuhZLjUcl55rIpGgkJk+6A/hc+6GQSZanx3Dgb29gLRC9r4Vz+Lmma0d6GW4s+qRWEcSFJUlgOFouA==",
+  "success": true,
+  "projectFilePath": "/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/LottieProxyiOS.Binding.csproj",
+  "expectedPackageFiles": [
+    "/Users/csabahuszar/.nuget/packages/system.runtime.interopservices.nfloat.internal/6.0.1/system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+framework module LottieProxyiOS {
+  umbrella header "LottieProxyiOS.h"
+
+  export *
+  module * { export * }
+}
+
+module LottieProxyiOS.__Swift {
+    exclude header "LottieProxyiOS-Swift.h"
+}

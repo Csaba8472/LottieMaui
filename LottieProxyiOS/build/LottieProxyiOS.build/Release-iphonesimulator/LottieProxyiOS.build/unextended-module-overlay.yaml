@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/build/Release-iphonesimulator/LottieProxyiOS.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/build/LottieProxyiOS.build/Release-iphonesimulator/LottieProxyiOS.build/unextended-module.modulemap",
+    }]
+  }]
+}

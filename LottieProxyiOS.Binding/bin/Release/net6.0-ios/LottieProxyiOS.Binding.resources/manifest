@@ -1,0 +1,22 @@
+﻿<BindingAssembly>
+	<NativeReference Name="LottieProxyiOS.framework">
+		<ForceLoad></ForceLoad>
+		<Frameworks>Foundation UIKit</Frameworks>
+		<IsCxx></IsCxx>
+		<Kind>Framework</Kind>
+		<LinkerFlags></LinkerFlags>
+		<NeedsGccExceptionHandling></NeedsGccExceptionHandling>
+		<SmartLink></SmartLink>
+		<WeakFrameworks></WeakFrameworks>
+	</NativeReference>
+	<NativeReference Name="Lottie.xcframework">
+		<ForceLoad></ForceLoad>
+		<Frameworks>Foundation UIKit</Frameworks>
+		<IsCxx></IsCxx>
+		<Kind>Framework</Kind>
+		<LinkerFlags></LinkerFlags>
+		<NeedsGccExceptionHandling></NeedsGccExceptionHandling>
+		<SmartLink></SmartLink>
+		<WeakFrameworks></WeakFrameworks>
+	</NativeReference>
+</BindingAssembly>

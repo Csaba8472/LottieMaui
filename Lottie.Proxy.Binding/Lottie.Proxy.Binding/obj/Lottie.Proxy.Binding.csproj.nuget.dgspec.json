@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csabh\\Projects\\LottieMaui\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding.csproj": {}
+    "/Users/csabahuszar/Projects/LottieMaui/Lottie.Proxy.Binding/Lottie.Proxy.Binding/Lottie.Proxy.Binding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csabh\\Projects\\LottieMaui\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding.csproj": {
+    "/Users/csabahuszar/Projects/LottieMaui/Lottie.Proxy.Binding/Lottie.Proxy.Binding/Lottie.Proxy.Binding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csabh\\Projects\\LottieMaui\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding.csproj",
+        "projectUniqueName": "/Users/csabahuszar/Projects/LottieMaui/Lottie.Proxy.Binding/Lottie.Proxy.Binding/Lottie.Proxy.Binding.csproj",
         "projectName": "Lottie.Proxy.Binding",
-        "projectPath": "C:\\Users\\csabh\\Projects\\LottieMaui\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding.csproj",
-        "packagesPath": "C:\\Users\\csabh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csabh\\Projects\\LottieMaui\\Lottie.Proxy.Binding\\Lottie.Proxy.Binding\\obj\\",
+        "projectPath": "/Users/csabahuszar/Projects/LottieMaui/Lottie.Proxy.Binding/Lottie.Proxy.Binding/Lottie.Proxy.Binding.csproj",
+        "packagesPath": "/Users/csabahuszar/.nuget/packages/",
+        "outputPath": "/Users/csabahuszar/Projects/LottieMaui/Lottie.Proxy.Binding/Lottie.Proxy.Binding/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\csabh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/csabahuszar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-android31.0"
+          "net6.0-android"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\csabh\\Downloads": {},
-          "C:\\Users\\csabh\\Projects\\dummy\\LottieXamarin\\Lottie.Maui\\bin\\Debug\\": {},
-          "C:\\Users\\csabh\\Projects\\dummy\\microsoft-authentication-library-for-dotnet\\src\\client\\Microsoft.Identity.Client\\bin\\Release": {},
+          "/Users/csabahuszar/Downloads": {},
+          "/Users/csabahuszar/Projects/dummy/LottieXamarin/Lottie.Android/Lottie.Android/bin/Debug": {},
+          "/Users/csabahuszar/Projects/dummy/LottieXamarin/Lottie.Maui/bin/Debug": {},
+          "/Users/csabahuszar/Projects/dummy/LottieXamarin/Lottie.iOS.net6/bin/Debug": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,12 +52,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Android.Ref.31",
-              "version": "[31.0.101-preview.11.117, 31.0.101-preview.11.117]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -71,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22204.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

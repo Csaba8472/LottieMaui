@@ -1,0 +1,14 @@
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/bin/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.resources.stamp
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/bin/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.dll
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/bin/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.pdb
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/_ProcessedBundleResourcesPath.items
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/_ProcessedContentPath.items
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.csproj.AssemblyReference.cache
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.GeneratedMSBuildEditorConfig.editorconfig
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.AssemblyInfoInputs.cache
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.AssemblyInfo.cs
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.csproj.CoreCompileInputs.cache
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.dll
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/refint/LottieProxyiOS.Binding.dll
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/LottieProxyiOS.Binding.pdb
+/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS.Binding/obj/Debug/net6.0-ios/ios-arm64/ref/LottieProxyiOS.Binding.dll

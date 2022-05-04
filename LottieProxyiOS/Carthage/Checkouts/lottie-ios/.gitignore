@@ -1,0 +1,27 @@
+# Xcode
+xcuserdata/
+
+# AppCode
+.idea/
+
+# other
+build/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.swiftpm
+.build/
+Package.resolved
+
+# Carthage support tests
+script/test-carthage/Carthage
+
+# Test artifacts
+Tests/Artifacts
+
+# Private test animations
+Tests/Samples/Private/*.json
+Tests/Samples/Private/**/*.json
+Tests/__Snapshots__/**/*Private*.png

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="$(TargetFramework.Contains('-ios'))">
+		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+	</PropertyGroup>
+
+   <ItemGroup>
+    <NativeReference Include="/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/VendorFrameworks/swift-framework-proxy/LottieProxyiOS.framework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
+  </ItemGroup>
+
+ <ItemGroup>
+    <NativeReference Include="/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/Carthage/Build/Lottie.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
+  </ItemGroup>
+
+</Project>

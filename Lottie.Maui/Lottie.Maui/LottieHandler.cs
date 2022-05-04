@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 #if __IOS__ || MACCATALYST
-using PlatformView = UIKit.UIButton;
+using PlatformView = UIKit.UIView;
 #elif ANDROID
 using PlatformView = AndroidX.AppCompat.Widget.AppCompatImageView;
 #elif WINDOWS

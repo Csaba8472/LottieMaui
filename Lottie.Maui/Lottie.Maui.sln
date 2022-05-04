@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottie.Maui", "Lottie.Maui\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lottie.Proxy.Binding", "..\Lottie.Proxy.Binding\Lottie.Proxy.Binding\Lottie.Proxy.Binding.csproj", "{A90896F9-100D-44E7-AF75-96F3CA79005A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottieProxyiOS.Binding", "..\LottieProxyiOS.Binding\LottieProxyiOS.Binding.csproj", "{8545E5FA-68EC-4081-9159-E7D3538DDCCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A90896F9-100D-44E7-AF75-96F3CA79005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A90896F9-100D-44E7-AF75-96F3CA79005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A90896F9-100D-44E7-AF75-96F3CA79005A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8545E5FA-68EC-4081-9159-E7D3538DDCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8545E5FA-68EC-4081-9159-E7D3538DDCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8545E5FA-68EC-4081-9159-E7D3538DDCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8545E5FA-68EC-4081-9159-E7D3538DDCCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
