@@ -1,5 +1,0 @@
-C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0\Lottie.Maui.csproj.AssemblyReference.cache
-C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0\Lottie.Maui.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0\Lottie.Maui.AssemblyInfoInputs.cache
-C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0\Lottie.Maui.AssemblyInfo.cs
-C:\Users\csabh\Projects\Lottie.Maui\Lottie.Maui\obj\Debug\net6.0\Lottie.Maui.csproj.CoreCompileInputs.cache
