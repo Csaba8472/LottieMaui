@@ -1,5 +1,4 @@
-﻿
-using Android.Content;
+﻿using Android.Content;
 using AndroidX.AppCompat.Widget;
 using Com.Hcsaba.Mylibrary;
 

@@ -11,7 +11,7 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
 
-  <PropertyGroup Condition="$(TargetFramework.Contains('-ios'))">
+  <PropertyGroup>
 		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
 	</PropertyGroup>
 

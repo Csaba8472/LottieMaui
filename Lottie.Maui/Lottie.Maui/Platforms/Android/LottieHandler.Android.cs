@@ -1,6 +1,4 @@
-﻿#if ANDROID
-
-using Com.Hcsaba.Mylibrary;
+﻿using Com.Hcsaba.Mylibrary;
 using Microsoft.Maui.Handlers;
 
 namespace Lottie.Maui;
@@ -50,4 +48,3 @@ public partial class LottieHandler : ViewHandler<ILottieView, AndroidX.AppCompat
         return (AndroidX.AppCompat.Widget.AppCompatImageView)platformView.View;
     }
 }
-#endif

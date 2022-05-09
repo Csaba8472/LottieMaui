@@ -8,12 +8,6 @@ using System.Threading.Tasks;
 using PlatformView = UIKit.UIView;
 #elif ANDROID
 using PlatformView = AndroidX.AppCompat.Widget.AppCompatImageView;
-#elif WINDOWS
-using PlatformView = Microsoft.UI.Xaml.Controls.Button;
-#elif TIZEN
-using PlatformView = Tizen.UIExtensions.ElmSharp.Button;
-#elif NETSTANDARD || (NET6_0 && !IOS && !ANDROID && !TIZEN)
-using PlatformView = System.Object;
 #endif
 
 namespace Lottie.Maui;
