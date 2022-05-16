@@ -6,14 +6,14 @@
     <IsBindingProject>true</IsBindingProject>
   </PropertyGroup>
 
+    <PropertyGroup>
+    <RuntimeIdentifiers>ios-arm64;iossimulator-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
-
-  <PropertyGroup>
-		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
-	</PropertyGroup>
 
    <ItemGroup>
     <NativeReference Include="/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/VendorFrameworks/swift-framework-proxy/LottieProxyiOS.framework">
