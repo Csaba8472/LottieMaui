@@ -12,6 +12,6 @@ public class LottieSdkCallbackImpl : Java.Lang.Object, ILottieSdkCallback
 {
     public void OnFailure(string p0)
     {
-        Console.WriteLine("HIBA: " + p0);
+       // Console.WriteLine("OnFailure: " + p0);
     }
 }
