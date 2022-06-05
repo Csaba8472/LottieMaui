@@ -1,3 +1,5 @@
 bin/
 obj/
-.vs/.DS_Store
+.DS_Store
+.vs/
+DerivedData/
