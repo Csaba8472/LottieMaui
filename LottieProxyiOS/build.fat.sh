@@ -1,7 +1,7 @@
 # Builds a fat library for a given xcode project (framework)
 
 echo "Define parameters"
-IOS_SDK_VERSION="15.4" # xcodebuild -showsdks
+IOS_SDK_VERSION="15.5" # xcodebuild -showsdks
 SWIFT_PROJECT_NAME="LottieProxyiOS"
 SWIFT_PROJECT_PATH="$SWIFT_PROJECT_NAME.xcodeproj"
 SWIFT_BUILD_PATH="build"

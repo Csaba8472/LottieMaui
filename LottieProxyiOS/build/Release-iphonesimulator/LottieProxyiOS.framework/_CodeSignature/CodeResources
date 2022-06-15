@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LottieProxyiOS-Swift.h</key>
 		<data>
-		MhUYiTrTL+msjCtvfnfWnsRHfjk=
+		/7fpkvYQoxu5ypLDqrJjecGC1WE=
 		</data>
 		<key>Headers/LottieProxyiOS.h</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8gQYawiFohf36Zpz/mEdVVhZZtA=
+		D2kQ46fW/E6UzoOHJeHYzz0m3WQ=
 		</data>
 		<key>Modules/LottieProxyiOS.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tpxrd8UZ2k3op37Ppp7hHqoLjGw=
+		zESOiDbhAbB2W2DOJ3Q92ET1O+c=
 		</data>
 		<key>Modules/LottieProxyiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rRLl+tMYm7qOjF7+6OglrdatU7U=
+		du9p9fVDowGWl1imQ4af7/we6Hg=
 		</data>
 		<key>Modules/LottieProxyiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NksRNkwbG6KvMyN0v2iBIBro2ps=
+		4MpJYr7TcnLLwYUse9quCL+xx+Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zLoYsmmLh9aO5uKVjY3XO5PmWiyQJ13of+WT/9mxT4=
+			FNFliRvoEI6ZlU4xM66I+HsO5Gw4iFno7i5XxDyPV8A=
 			</data>
 		</dict>
 		<key>Headers/LottieProxyiOS.h</key>
@@ -53,21 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q1l/rW/Ub+sjQIrmNnMvW+zQnX7dX36orBQEZdocVMk=
+			mGtFnylez6Ty4LQo+hUH5v1vgfsjKhEeauy4vMCzjP8=
 			</data>
 		</dict>
 		<key>Modules/LottieProxyiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tScwgKRcY09/t7SQDIB423aN+voxS3E4AGCj0tPoOY8=
+			pvfLO7R1H8zaWWyEMJpRiSbTJ7dQ/0m+7H6rVJbM9j0=
 			</data>
 		</dict>
 		<key>Modules/LottieProxyiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0KZ9jJBuzcfRPxC868kTsQ/CFfSnRT4+vmK6ocwgBs0=
+			pAYA3Q9h9ZPVoX9EAQDwml2AVkB3fcjFFmzyF0SuvwM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

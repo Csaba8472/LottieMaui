@@ -1,6 +1,6 @@
-version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "e39e80efbb6b55f0513d05b73c4e8627d4cfe5c1af0a9ec9d1d60ef819ae3101"
-build_start_time: [1651647491, 606624126]
-build_end_time: [1651647491, 972170829]
+build_start_time: [1654974785, 394754886]
+build_end_time: [1654974785, 934388160]
 inputs:
-  "/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/LottieProxyiOS/LottieProxyiOS.swift": [1651646483, 664783954]
+  "/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/LottieProxyiOS/LottieProxyiOS.swift": [1654952851, 495975971]
