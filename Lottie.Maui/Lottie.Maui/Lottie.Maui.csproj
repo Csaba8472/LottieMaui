@@ -24,7 +24,7 @@
 	
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
 	  <Reference Include="LottieProxyiOS.Binding">
-	    <HintPath>..\..\LottieProxyiOS.Binding\bin\Debug\net6.0-ios\iossimulator-x64\LottieProxyiOS.Binding.dll</HintPath>
+	    <HintPath>..\..\LottieProxyiOS.Binding\bin\Debug\net6.0-ios\ios-arm64\LottieProxyiOS.Binding.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 </Project>
