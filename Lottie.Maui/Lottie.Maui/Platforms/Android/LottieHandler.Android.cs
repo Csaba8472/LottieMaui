@@ -13,7 +13,6 @@ public partial class LottieHandler : ViewHandler<ILottieView, AndroidX.AppCompat
         //handler.PlatformView.Progress = 0;
     }
 
-
     private static void MapIsPlaying(LottieHandler handler, ILottieView view)
     {
         /*
@@ -29,7 +28,6 @@ public partial class LottieHandler : ViewHandler<ILottieView, AndroidX.AppCompat
         // handler.PlatformView.Loop(view.Loops);
     }
         
-
     public static void MapAnimation(LottieHandler handler, ILottieView view)
     {
         var name = view?.Animation;
