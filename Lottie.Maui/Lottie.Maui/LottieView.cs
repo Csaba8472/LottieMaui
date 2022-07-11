@@ -8,7 +8,6 @@ namespace Lottie.Maui;
 
 public class LottieView : View, ILottieView
 {
-
     private string _animation;
     public string Animation 
     { 
