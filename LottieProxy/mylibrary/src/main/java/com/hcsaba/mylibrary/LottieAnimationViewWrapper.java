@@ -5,9 +5,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.appcompat.widget.AppCompatImageView;
-
 import com.airbnb.lottie.LottieAnimationView;
 import com.airbnb.lottie.LottieCompositionFactory;
 import com.airbnb.lottie.LottieDrawable;
@@ -23,7 +21,6 @@ public class LottieAnimationViewWrapper {
         lottieAnimationView = new LottieAnimationView(context);
         lottieAnimationView.setRepeatMode(LottieDrawable.RESTART);
         lottieAnimationView.setRepeatCount(LottieDrawable.INFINITE);
-        //lottieAnimationView.setBackgroundColor(Color.parseColor("#ffd9ff04"));
         lottieSdkCallback = sdkCallback;
 
         ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
@@ -54,7 +51,6 @@ public class LottieAnimationViewWrapper {
                 System.out.println("Animation: " + "repeat");
             }
         });
-
     }
 
     public View getView() {
@@ -62,17 +58,10 @@ public class LottieAnimationViewWrapper {
     }
 
     public void setAnimation(String animation){
-
-
         LottieCompositionFactory.fromAsset(_context, animation).addListener(result -> {
             System.out.println("Loaded!!!!!!!!!!!!!! "+result.getBounds() + " " + result.toString());
             lottieAnimationView.setComposition(result);
             lottieAnimationView.playAnimation();
         }).addFailureListener(result -> result.printStackTrace());
-
-
-        //lottieAnimationView.setAnimation(animation);
-        //lottieAnimationView.playAnimation();
-
     }
 }
