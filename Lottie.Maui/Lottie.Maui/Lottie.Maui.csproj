@@ -18,15 +18,16 @@
 		<ProjectReference Include="..\..\LottieProxyiOS.Binding\LottieProxyiOS.Binding.csproj" />
 	</ItemGroup>
 
+	<!--
 	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' and '$(Configuration)' == 'Debug'">
 		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>	
 	</PropertyGroup>
-
-	<!--
+	-->
+	
 	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' and '$(Configuration)' == 'Debug'">
 		<RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>	
 	</PropertyGroup>
-	-->
+	
 
 	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' and '$(Configuration)' == 'Release'">
 		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>	

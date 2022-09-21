@@ -1,5 +1,5 @@
 using Foundation;
-using LottieProxyiOS;
+using UIKit;
 
 namespace Binding
 {
