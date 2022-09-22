@@ -9,24 +9,18 @@
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
-<<<<<<< Updated upstream
-
-   <ItemGroup>
-    <NativeReference Include="/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/VendorFrameworks/swift-framework-proxy/LottieProxyiOS.framework">
-=======
 	<ItemGroup>
     <NativeReference Include="LottieProxyiOS.xcframework">
->>>>>>> Stashed changes
       <Kind>Framework</Kind>
       <Frameworks>Foundation UIKit</Frameworks>
-		<SmartLink>True</SmartLink>
+		  <SmartLink>True</SmartLink>
     </NativeReference>
   </ItemGroup>
  <ItemGroup>
     <NativeReference Include="Lottie.xcframework">
       <Kind>Framework</Kind>
       <Frameworks>Foundation UIKit</Frameworks>
-		<SmartLink>True</SmartLink>
+		  <SmartLink>True</SmartLink>
     </NativeReference>
   </ItemGroup>
 </Project>
