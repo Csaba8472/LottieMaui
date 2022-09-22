@@ -33,33 +33,6 @@
       "printedName": "LottieAnimationViewWrapper",
       "children": [
         {
-          "kind": "Var",
-          "name": "animationView",
-          "printedName": "animationView",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "AnimationView",
-              "printedName": "Lottie.AnimationView",
-              "usr": "c:@M@Lottie@objc(cs)AnimationView"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:14LottieProxyiOS0A20AnimationViewWrapperC09animationE033_B1E3F84BB2ECBCFD10F7B2061A8BEB4DLL0A00dE0Cvp",
-          "mangledName": "$s14LottieProxyiOS0A20AnimationViewWrapperC09animationE033_B1E3F84BB2ECBCFD10F7B2061A8BEB4DLL0A00dE0Cvp",
-          "moduleName": "LottieProxyiOS",
-          "isInternal": true,
-          "declAttributes": [
-            "HasInitialValue",
-            "Final",
-            "HasStorage",
-            "AccessControl"
-          ],
-          "fixedbinaryorder": 0,
-          "isLet": true,
-          "hasStorage": true
-        },
-        {
           "kind": "Function",
           "name": "initAnimation",
           "printedName": "initAnimation()",

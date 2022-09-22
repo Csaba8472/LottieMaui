@@ -1,5 +1,24 @@
+### mac ###
+.DS_Store
+
+### Xcode ###
+## User settings
+xcuserdata/
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+DerivedData/
+
+### Rider ###
+.idea
+
+### DOTNET ###
 bin/
 obj/
-.DS_Store
 .vs/
-DerivedData/
