@@ -13,7 +13,7 @@ using PlatformView = AndroidX.AppCompat.Widget.AppCompatImageView;
 
 namespace Lottie.Maui;
 
-public partial class LottieHandler : ILottieHandler
+public partial class LottieHandler
 {
     public static readonly PropertyMapper<ILottieView, LottieHandler> Mapper = new(ViewMapper)
     {
@@ -30,8 +30,4 @@ public partial class LottieHandler : ILottieHandler
     public LottieHandler() : base(Mapper, CommmandMapper)
     {
     }
-
-    ILottieView ILottieHandler.VirtualView => VirtualView;
-
-    PlatformView ILottieHandler.PlatformView => PlatformView;
 }

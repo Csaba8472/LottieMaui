@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lottie.Maui
+namespace Lottie.Maui;
+
+public interface ILottieView: IView
 {
-    public interface ILottieView: IView
-    {
-        string Animation { get; set; }
-        bool Loops { get; }
-        bool IsPlaying { get; set; }
-        void PlaybackCompleted();
-    }
+    string Animation { get; set; }
+    bool Loops { get; }
+    bool IsPlaying { get; set; }
+    void PlaybackCompleted();
 }

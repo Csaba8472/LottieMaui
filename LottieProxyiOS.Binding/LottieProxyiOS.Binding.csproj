@@ -11,10 +11,6 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
 
-  <PropertyGroup>
-		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
-	</PropertyGroup>
-
    <ItemGroup>
     <NativeReference Include="/Users/csabahuszar/Projects/LottieMaui/LottieProxyiOS/VendorFrameworks/swift-framework-proxy/LottieProxyiOS.framework">
       <Kind>Framework</Kind>

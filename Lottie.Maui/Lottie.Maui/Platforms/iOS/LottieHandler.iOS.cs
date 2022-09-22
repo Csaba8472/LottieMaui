@@ -4,7 +4,6 @@ using LottieProxyiOS.Binding;
 
 namespace Lottie.Maui;
 
-
 public partial class LottieHandler : ViewHandler<ILottieView, UIView>
 {
 
@@ -14,7 +13,6 @@ public partial class LottieHandler : ViewHandler<ILottieView, UIView>
     {
         //handler.PlatformView.Progress = 0;
     }
-
 
     private static void MapIsPlaying(LottieHandler handler, ILottieView view)
     {
@@ -30,7 +28,6 @@ public partial class LottieHandler : ViewHandler<ILottieView, UIView>
     {
         // handler.PlatformView.Loop(view.Loops);
     }
-
 
     public static void MapAnimation(LottieHandler handler, ILottieView view)
     {

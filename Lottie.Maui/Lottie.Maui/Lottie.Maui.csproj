@@ -13,13 +13,24 @@
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
 	  <ProjectReference Include="..\..\Lottie.Proxy.Binding\Lottie.Proxy.Binding\Lottie.Proxy.Binding.csproj" />
 	</ItemGroup>
-		<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
-		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
-	</PropertyGroup>
 
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
-	  <ProjectReference Include="..\..\LottieProxyiOS.Binding\LottieProxyiOS.Binding.csproj" />
+		<ProjectReference Include="..\..\LottieProxyiOS.Binding\LottieProxyiOS.Binding.csproj" />
 	</ItemGroup>
+
+	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' and '$(Configuration)' == 'Debug'">
+		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>	
+	</PropertyGroup>
+
+	<!--
+	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' and '$(Configuration)' == 'Debug'">
+		<RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>	
+	</PropertyGroup>
+	-->
+
+	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' and '$(Configuration)' == 'Release'">
+		 <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>	
+	</PropertyGroup>
 	
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
 	  <Reference Include="LottieProxyiOS.Binding">
