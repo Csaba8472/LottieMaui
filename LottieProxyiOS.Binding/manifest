@@ -1,0 +1,12 @@
+﻿<BindingAssembly>
+    <NativeReference Name="LottieProxyiOS.xcframework">
+        <Kind>Framework</Kind>
+        <Frameworks>Foundation UIKit</Frameworks>
+            <SmartLink>True</SmartLink>
+      </NativeReference>
+    <NativeReference Name="Lottie.xcframework">
+        <Kind>Framework</Kind>
+        <Frameworks>Foundation UIKit</Frameworks>
+            <SmartLink>True</SmartLink>
+      </NativeReference>
+</BindingAssembly>

@@ -16,7 +16,7 @@ xcuserdata/
 DerivedData/
 
 ### Rider ###
-.idea
+.idea/
 
 ### DOTNET ###
 bin/
